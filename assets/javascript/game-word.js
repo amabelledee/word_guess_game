@@ -8,8 +8,8 @@ var answer = "Birdperson";
 // variables on page
 var wins = 0;
 var loss = 0;
-var guessLeft = 0;
-var guessFar = 0;
+var guessLeft = 9;
+var guessFar = [];
 
 // function for user choice
 document.onkeyup = function(event) {
